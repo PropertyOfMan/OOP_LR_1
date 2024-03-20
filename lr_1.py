@@ -44,7 +44,7 @@ def check_from_twenty_to_hundred(fourth_d, fifth_d): # перевод 2-знач
     number_format = number[int(fourth_d)]
     # В number_format содержится слово, соответствующее первой цифре двухзначного числа
 
-    suff =  number_suffix[-1][2:] if fourth_d in '23' else number_suffix[-2]
+    suff = number_suffix[-1][2:] if fourth_d in '23' else number_suffix[-2]
     # В suff лежит суффикс, соответствующий данной цифре десятков. Для 2 и 3 особые суффиксы
 
     if fourth_d in '49':
